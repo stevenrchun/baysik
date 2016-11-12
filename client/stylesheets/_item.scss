@@ -1,0 +1,32 @@
+.item {
+  padding:1rem;
+  margin-bottom: 1rem;
+
+  .content {
+    background-color: white;
+  }
+
+  .description{
+    word-wrap: break-word; /*questionable*/
+  }
+
+  .button {
+
+    button {
+
+      div {
+        background-color: #4183D7;
+      }
+      color: #FFFFFF;
+    }
+  }
+
+  .thumbnail {
+
+    img {
+      max-width: 100%;
+    }
+  }
+
+
+}
