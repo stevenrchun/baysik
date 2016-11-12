@@ -1,0 +1,83 @@
+.tabs {
+  div {
+    color: white;
+    background-color: #E74C3C;
+    //background-color: white;
+  }
+}
+
+/*
+.tabs-buy {
+  div {
+    background-color: #FF6656;
+  }
+}
+
+.tabs-sell {
+  div {
+    background-color: #FF6656;
+  }
+}
+*/
+
+.search-button {
+  padding: 0px !important;
+  height: 30px !important;
+  z-index: 10;
+  margin-left: -40px !important;
+  background-color: #4183D7 !important;
+  border-radius: 0 .5rem .5rem 0;
+  span {
+    filter: invert(1);
+  }
+}
+
+.hero {
+  h1{
+    color:white;
+    font-size: 48px;
+    text-align: left;
+  }
+  //box-shadow: 0 1px 2px rgba(0,0,0,.1);
+  //margin-top: 5rem;
+  padding-top: 205px;
+  padding-bottom: 145px;
+  background-image: url(https://dl.dropboxusercontent.com/s/dh0vlte2pb7r21z/22035791838_2920b54611_k.jpg?dl=0);
+  background-size:cover;
+  background-position: 0% 60%;
+  background-repeat: no-repeat;
+  input {
+    border-radius: .5rem;
+    border-style: none;
+    height: 3rem;
+    text-align: center;
+    font-size: 2rem;
+    outline: none!important;
+  }
+  margin-bottom: 0;
+}
+
+.hero2 {
+  h1{
+    color: white;
+    font-size: 48px;
+  }
+  h3{
+    margin: 0;
+  }
+  padding-top: 200px;
+  padding-bottom: 202px;
+  background-image: url(https://dl.dropboxusercontent.com/s/c15sf9x4w7xe8pi/22623741401_c6149b430c_k.jpg?dl=0);
+  background-size:cover;
+  background-position: 0% 40%;
+  background-repeat: no-repeat;
+  input {
+    border-radius: .5rem;
+    border-style: none;
+    height: 3rem;
+    text-align: center;
+    font-size: 2rem;
+    outline: none!important;
+  }
+  margin-bottom: 0;
+}
