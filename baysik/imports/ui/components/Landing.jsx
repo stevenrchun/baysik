@@ -1,6 +1,9 @@
 import React, { Component, PropTypes } from 'react';
 import { Meteor } from 'meteor/meteor';
 
+
+
+
 // Landing component
 export default class Landing extends Component {
     constructor(props) {
@@ -10,6 +13,11 @@ export default class Landing extends Component {
         };
     }
 
+    handleLogin() {
+        window.location.assign(
+            'https://api.instagram.com/oauth/authorize/?client_id=c9bc98028e6a41b488e1ec88ed3bf51c&redirect_uri=http://localhost:3000/landing/authenticated/&response_type=token'
+        );
+    }
 
 
     render() {
@@ -24,6 +32,8 @@ export default class Landing extends Component {
                 <h3>
                     3 dickies
                 </h3>
+                <button onClick={this.handleLogin}>Get Dicked!</button>
+                {this.props.children}
             </div>
         );
 

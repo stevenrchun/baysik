@@ -31,7 +31,9 @@ class App extends Component {
 
   render() {
       return (
-          <Landing></Landing>
+          <div>
+              {this.props.children}
+          </div>
         );
     }
 }
